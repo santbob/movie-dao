@@ -1,10 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
-
 import { useWeb3 } from "@3rdweb/hooks";
 
 const App = () => {
   // use the connectWallet hook thirdweb gives us.
-  const { connectWallet, address, error, provider } = useWeb3();
+  const { connectWallet, address } = useWeb3();
 
   console.log("👋 Address:", address);
 
