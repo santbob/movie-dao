@@ -4,7 +4,25 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background: #1521cf;
+  background: -webkit-repeating-linear-gradient(
+    to top left,
+    #1521cf 0%,
+    #ff8640 50%,
+    #2ecf5e 100%
+  );
+  background: -moz-repeating-linear-gradient(
+    to top left,
+    #1521cf 0%,
+    #ff8640 50%,
+    #2ecf5e 100%
+  );
+  background: repeating-linear-gradient(
+    to top left,
+    #1521cf 0%,
+    #ff8640 50%,
+    #2ecf5e 100%
+  );
   color: #fff;
   overflow-x: hidden;
 }
