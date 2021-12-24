@@ -3,7 +3,7 @@ import sdk from './1-initialize-sdk.js';
 
 // grab the vote module
 // This is our governance contract.
-const voteModule = sdk.getBundleDropModule("  ");
+const voteModule = sdk.getVoteModule("0x31b8B0d03fD6Abc6B86DfFc946F922a3B62E635b");
 
 // grab the token module
 // This is our ERC-20 contract.
